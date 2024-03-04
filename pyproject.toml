@@ -1,15 +1,15 @@
 [tool.poetry]
-name = "Fourch-api"
-version = "0.1.3"
+name = "fourch"
+version = "0.1.0"
 description = ""
 authors = ["BazZziliuS"]
 readme = "README.md"
 packages = [
-    { include = "fourch-api" }
+    { include = "fourch" }
 ]
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.12"
 aiohttp = ">=3.9.3"
 pydantic = ">=2.5.2"
 
