@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["BazZziliuS"]
 readme = "README.md"
+packages = [
+    { include = "Fourch_api" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.12"
