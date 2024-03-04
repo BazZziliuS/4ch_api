@@ -5,7 +5,7 @@ description = ""
 authors = ["BazZziliuS"]
 readme = "README.md"
 packages = [
-    { include = "Fourch_api" }
+    { include = "fourch-api" }
 ]
 
 [tool.poetry.dependencies]
